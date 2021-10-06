@@ -3,7 +3,7 @@
 
 
 #cabeceraTabla th{
-  
+  padding: 5px;;
   text-align: center;
   border: blueviolet 2px solid;
   margin: 20px;
@@ -12,6 +12,7 @@
 
 
 #datosTabla td {
+padding: 5px;
 text-align: center;
 border:cornflowerblue 2px solid;
 margin: 0px;
