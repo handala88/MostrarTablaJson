@@ -20,7 +20,7 @@
 
 <table class="table">
   <thead>
-    <tr>
+    <tr id="cabeceraTabla">
       <th>Identificador</th>
       <th>Grupo</th>
       <th>Revision</th>
@@ -34,7 +34,7 @@
   </thead>
 
   <tbody>
-    <tr *ngFor="let item of vehicleList">
+    <tr *ngFor="let item of vehicleList" id="datosTabla">
       <td>{{ item.Identificador }}</td>
       <td>{{ item.Grupo }}</td>
       <td>{{ item.Revision }}</td>

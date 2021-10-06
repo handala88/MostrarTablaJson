@@ -1,1 +1,18 @@
 /* Add application styles & imports to this file! */
+
+
+
+#cabeceraTabla th{
+  
+  text-align: center;
+  border: blueviolet 2px solid;
+  margin: 20px;
+}
+
+
+
+#datosTabla td {
+text-align: center;
+border:cornflowerblue 2px solid;
+margin: 0px;
+}
