@@ -1,0 +1,51 @@
+<hello name="{{ name }}"></hello>
+
+
+<!--
+<div style="text-align:center">
+  <h2>Vehicles Json</h2>
+  <ul *ngFor="let item of vehicleList">
+    <li>
+      <h3>
+        Id :{{ item.Identificador }}, Grup: {{ item.Grupo }}, Revision:
+        {{ item.Revision }}, Fecha: {{ item.Fecha }}, Odometro:
+        {{ item.Odometro }}, Horometro: {{ item.Horometro }}, Lugar:
+        {{ item.Lugar }}, Costes: {{ item.Costes }}, Comentarios:
+        {{ item.Comentarios }}
+      </h3>
+    </li>
+  </ul>
+</div>
+-->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Identificador</th>
+      <th>Grupo</th>
+      <th>Revision</th>
+      <th>Fecha</th>
+      <th>Odometro</th>
+      <th>Horometro</th>
+      <th>Lugar</th>
+      <th>Costes</th>
+      <th>Comentarios</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let item of vehicleList">
+      <td>{{ item.Identificador }}</td>
+      <td>{{ item.Grupo }}</td>
+      <td>{{ item.Revision }}</td>
+      <td>{{ item.Fecha }}</td>
+      <td>{{ item.Odometro }}</td>
+      <td>{{ item.Horometro }}</td>
+      <td>{{ item.Lugar }}</td>
+      <td>{{ item.Costes }}</td>
+      <td>{{ item.Comentarios }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
